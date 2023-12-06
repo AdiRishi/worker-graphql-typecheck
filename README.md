@@ -1,9 +1,3 @@
 ## Testing worker types for @envelop/response-cache-cloudflare-kv
 
-If you uncomment the following line in [index.ts](./src/index.ts)
-
-```ts
-import { YogaInitialContext, createSchema, createYoga } from "graphql-yoga";
-```
-
-the types break. Why? Who knows
+See https://github.com/n1ru4l/envelop/issues/2104 for an explanation of the issue

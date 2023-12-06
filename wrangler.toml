@@ -6,3 +6,4 @@ compatibility_date = "2023-11-21"
 [[kv_namespaces]]
 binding = "GRAPHQL_RESPONSE_CACHE"
 id = "62ea2995ed2e475e97970df294678e90"
+preview_id = "62ea2995ed2e475e97970df294678e90"
