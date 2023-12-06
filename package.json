@@ -15,7 +15,16 @@
     "wrangler": "^3.18.0"
   },
   "dependencies": {
+    "@envelop/response-cache": "^6.1.1",
+    "@envelop/response-cache-cloudflare-kv": "0.3.0-rc-20231205134927-52c0c7aa",
+    "@epic-web/cachified": "^4.0.0",
+    "cachified-adapter-cloudflare-kv": "^1.0.1",
     "graphql": "^16.8.1",
     "graphql-yoga": "^5.0.1"
+  },
+  "pnpm": {
+    "overrides": {
+      "@types/node": "20.8.3"
+    }
   }
 }
